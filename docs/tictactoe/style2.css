@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+    background: linear-gradient(135deg, black,rgb(197, 251, 2));
+  }
+
+h1{
+  background-color: cornsilk
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    border: 2px solid #333;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-style: hidden;
+    background-color: aliceblue;
+
+  }
+
+  td {
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  td:hover {
+    background-color: lightgray;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #restart {
+    margin: auto;
+    display: block;
+    padding: 5px 10px;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#restart:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
